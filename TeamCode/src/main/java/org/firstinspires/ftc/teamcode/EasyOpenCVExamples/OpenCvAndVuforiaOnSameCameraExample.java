@@ -23,7 +23,7 @@ package org.firstinspires.ftc.teamcode.EasyOpenCVExamples;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import org.firstinspires.ftc.robotcore.external.ClassFactory;
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
 import org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocalizer;
@@ -48,6 +48,7 @@ import org.openftc.easyopencv.OpenCvPipeline;
  * gain, ISO, or frame rate.
  */
 @TeleOp
+@Disabled
 public class OpenCvAndVuforiaOnSameCameraExample extends LinearOpMode
 {
     VuforiaLocalizer vuforia = null;

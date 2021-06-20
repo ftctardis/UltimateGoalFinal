@@ -23,7 +23,7 @@ package org.firstinspires.ftc.teamcode.EasyOpenCVExamples;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.core.Scalar;
@@ -39,6 +39,7 @@ import org.openftc.easyopencv.OpenCvPipeline;
  * by the {@link OpenCvInternalCamera2} interface
  */
 @TeleOp
+@Disabled
 public class InternalCamera2AdvancedFeaturesExample extends LinearOpMode
 {
     /**

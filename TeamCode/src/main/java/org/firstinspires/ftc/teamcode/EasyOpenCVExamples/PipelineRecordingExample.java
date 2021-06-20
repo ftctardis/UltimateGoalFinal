@@ -23,7 +23,7 @@ package org.firstinspires.ftc.teamcode.EasyOpenCVExamples;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.core.Scalar;
@@ -41,6 +41,7 @@ import org.openftc.easyopencv.PipelineRecordingParameters;
  * recording is active.
  */
 @TeleOp
+@Disabled
 public class PipelineRecordingExample extends LinearOpMode
 {
     OpenCvCamera phoneCam;

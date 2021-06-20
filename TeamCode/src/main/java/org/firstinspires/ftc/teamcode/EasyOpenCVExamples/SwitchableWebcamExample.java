@@ -22,7 +22,7 @@
 package org.firstinspires.ftc.teamcode.EasyOpenCVExamples;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
 
 import org.opencv.core.Mat;
@@ -35,6 +35,7 @@ import org.openftc.easyopencv.OpenCvPipeline;
 import org.openftc.easyopencv.OpenCvSwitchableWebcam;
 import org.openftc.easyopencv.OpenCvCamera;
 
+@Disabled
 public class SwitchableWebcamExample extends LinearOpMode
 {
     WebcamName webcam1;

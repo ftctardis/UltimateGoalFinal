@@ -23,7 +23,7 @@ package org.firstinspires.ftc.teamcode.EasyOpenCVExamples;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
@@ -41,6 +41,7 @@ import org.openftc.easyopencv.OpenCvPipeline;
  * OpenCV on both.
  */
 @TeleOp
+@Disabled
 public class MultipleCameraExample extends LinearOpMode
 {
     OpenCvCamera phoneCam;

@@ -23,7 +23,7 @@ package org.firstinspires.ftc.teamcode.EasyOpenCVExamples;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfInt;
@@ -50,6 +50,7 @@ import java.util.List;
  * of the vision processing to usercode.
  */
 @TeleOp
+@Disabled
 public class StoneOrientationExample extends LinearOpMode
 {
     OpenCvInternalCamera2 phoneCam;

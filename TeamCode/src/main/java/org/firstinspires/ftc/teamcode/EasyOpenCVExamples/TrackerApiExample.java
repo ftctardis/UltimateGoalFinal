@@ -23,7 +23,7 @@ package org.firstinspires.ftc.teamcode.EasyOpenCVExamples;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.core.Scalar;
@@ -40,6 +40,7 @@ import org.openftc.easyopencv.OpenCvTrackerApiPipeline;
  * class to run multiple {@link OpenCvTracker} instances on each frame from the camera.
  */
 @TeleOp
+@Disabled
 public class TrackerApiExample extends LinearOpMode
 {
     OpenCvCamera phoneCam;
